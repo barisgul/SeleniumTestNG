@@ -3,6 +3,8 @@ This project created with Maven from Scratch and project designed wit Page Objec
 For testing framework TestNG used.
 
 # Project Structure 
+![](/images/image.png)
+![Alt Text](https://github.com/barisgul/SeleniumTestNG/blob/master/image.png)
 
 
 Also you can see all javadoc files under the doc folder.
