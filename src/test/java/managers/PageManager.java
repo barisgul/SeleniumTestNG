@@ -8,8 +8,7 @@ import pageobjects.LoginPage;
 public class PageManager {
 	private WebDriver driver;
 	private HomePage homePage;
-	private LoginPage loginPage; 
-
+	private LoginPage loginPage;  
  
 	public PageManager(WebDriver driver) { 
 		this.driver = driver;
@@ -22,5 +21,4 @@ public class PageManager {
 	public LoginPage getLoginPage() {		 
 		return (loginPage == null) ? loginPage = new LoginPage(driver) : loginPage; 
 	} 	 
-	  
 }

@@ -1,0 +1,9 @@
+helpers\FileReaderFactory.class
+enums\BrowserType.class
+managers\DriverFactory.class
+managers\PageManager.class
+pageobjects\BasePage.class
+managers\DriverManager.class
+pageobjects\HomePage.class
+helpers\ConfigFileReader.class
+pageobjects\LoginPage.class
