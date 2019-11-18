@@ -31,8 +31,9 @@ public class HomePage  {
 
         String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
         String screenShotName = "screenShot"+timeStamp+".png";
-
-        File DestFile=new File("C:\\Users\\baris\\AppData\\Local\\Temp\\"+screenShotName+"");
+ 
+	String loggedUser = System.getProperty("user.name");
+        File DestFile=new File("C:\\Users\\"+loggedUser+"\\AppData\\Local\\Temp\\"+screenShotName+"");
         
         FileUtils.copyFile(SrcFile, DestFile);  
 	}
