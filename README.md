@@ -1,5 +1,6 @@
 # MavenSeleniumTestNG
-This project created with Maven from Scratch and project designed wit Page Object Pattern
+This project created with Maven from Scratch and project designed wit Page Object Pattern.
+
 For testing framework TestNG used.
 
 # Project Structure 
@@ -14,11 +15,15 @@ Also you can see all javadoc files under the doc folder.
 - Apache Maven 3.6.2
 
 # Running
-For running the project first clone or download project
-Go to the project root directory with `cmd` command or `powershell`
-type `mvn clean`
-type `mcn clean install`
-type `mvn test`
+- For running the project first clone or download project.
+
+- Go to the project root directory with `cmd` command or `powershell.
+
+- type `mvn clean`. 
+
+- type `mcn clean install`. 
+
+- type `mvn test`.
 
 # After Execution
 The screenshot will be created as `screenShot"+timeStamp+".png` under the temp director
